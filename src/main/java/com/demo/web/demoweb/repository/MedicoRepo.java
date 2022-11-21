@@ -3,8 +3,10 @@ package com.demo.web.demoweb.repository;
 import java.util.Arrays;
 import java.util.List;
 
-import com.demo.web.demoweb.model.Medico;
+import org.springframework.stereotype.Repository;
 
+import com.demo.web.demoweb.model.Medico;
+@Repository
 public class MedicoRepo {
 
     public List<Medico> obtenerMedicos() {
